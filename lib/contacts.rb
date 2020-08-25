@@ -15,5 +15,5 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+arr.delete_if { |h| h["k1"] == "v3" }
 end
