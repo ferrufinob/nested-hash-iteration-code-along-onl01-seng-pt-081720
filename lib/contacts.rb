@@ -18,7 +18,7 @@ def remove_strawberry(contacts)
  contacts.each do |key, value|
    value.each do |key2, value2|
       if key2 == favorite_ice_cream_flavors
-        value2.each do |flavor|
+        key2.each do |flavor|
         if flavor == "strawberry"
           flavor.delete
         
