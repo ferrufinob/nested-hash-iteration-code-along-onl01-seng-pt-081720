@@ -15,5 +15,5 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-contacts.delete_if { |h, v | h[v] == "strawberry" }
+
 end
